@@ -1,0 +1,55 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman,
+		serif;
+}
+#header {
+	height: 200px;
+	width: 100%;
+	background-color: lightyellow;
+	border-bottom: solid 3px black;
+}
+
+#title {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 108px;
+	color: coral;
+	-webkit-text-stroke: 1px black;
+}
+
+#main {
+	height: 625px;
+	width: 100%;
+	background-color: wheat;
+	display: flex;
+}
+
+#putt-books {
+	height: 75px;
+	width: 200px;
+	font-size: 36px;
+	color: coral;
+	-webkit-text-stroke: 0.5px black;
+	background-color: palegoldenrod;
+	border-radius: 15px;
+	border: solid 3px black;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+#footer {
+	height: 100px;
+	width: 100%;
+	border-top: solid 3px black;
+	background-color: burlywood;
+}
+
+#footer p {
+	text-align: center;
+	padding-top: 25px;
+	font-size: 36px;
+	text-shadow: black 1px 0 25px;
+}
