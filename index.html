@@ -13,8 +13,40 @@
 			<h1 id="title">Library</h1>
 		</div>
 		<div id="main">
-			<button id="putt-books">Add Books</button>
+			<div id="putt-books-container">
+				<button id="putt-books" onclick="displayForm()">Add Books</button>
+			</div>
 			<div id="display-books"></div>
+			<div id="formBooks-">
+				<div id="formBooks" style="display: none">
+					<div id="label-container">
+						<label for="fauthor">Author :</label>
+						<input
+							type="text"
+							id="fauthor"
+							name="fauthor"
+							value="Jk Rowlings"
+						/><br />
+						<label for="fdescription">Description :</label>
+						<input
+							type="text"
+							id="fdescription"
+							name="fdescription"
+							value=""
+						/><br />
+						<label for="fpage">Page :</label>
+						<input
+							type="number"
+							min="24"
+							max="256"
+							id="fpage"
+							name="fpage"
+							value="24"
+						/><br />
+						<button id="formEnd" onclick="getForm()">Click on me</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="footer">
 			<p>Copyright © 2021 Melandry</p>
