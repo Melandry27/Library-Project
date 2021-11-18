@@ -43,6 +43,11 @@ html {
 	border-radius: 15px;
 	border: solid 3px black;
 	margin-top: 15px;
+	transition: background-color 2s ease-out 100ms;
+}
+
+#putt-books:hover {
+	background-color: goldenrod;
 }
 
 #formBooks {
@@ -146,6 +151,11 @@ html {
 	font-size: 24px;
 	font-weight: 700;
 	padding: 0px 10px 0px 10px;
+	transition: background-color 2s ease-out 100ms;
+}
+
+.delete-button:hover {
+	background-color: gray;
 }
 
 #footer {
