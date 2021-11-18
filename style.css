@@ -2,33 +2,33 @@
 html {
 	margin: 0;
 	padding: 0;
-	font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman,
-		serif;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #header {
 	height: 200px;
 	width: 100%;
-	background-color: lightyellow;
+	background-color: burlywood;
 	border-bottom: solid 3px black;
 }
 
 #title {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 40px;
 	font-size: 108px;
-	color: coral;
+	color: #df6d14;
 	-webkit-text-stroke: 1px black;
 }
 
 #main {
-	height: 625px;
+	min-height: 625px;
+	height: auto;
 	width: 100%;
-	background-color: wheat;
+	background-color: #e1ce9a;
 	display: block;
 }
 
 #putt-books-container {
-	background-color: wheat;
+	background-color: #e1ce9a;
 	display: flex;
 	justify-content: center;
 }
@@ -37,7 +37,7 @@ html {
 	height: 75px;
 	width: 200px;
 	font-size: 36px;
-	color: coral;
+	color: #df6d14;
 	-webkit-text-stroke: 0.5px black;
 	background-color: palegoldenrod;
 	border-radius: 15px;
@@ -97,22 +97,55 @@ html {
 	height: auto;
 	width: 100%;
 	display: flex;
-	flex-direction: wrap;
-	background-color: aquamarine;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: wrap-reverse;
 	margin-top: 15px;
 }
 
 .books {
-	display: flex;
+	background-color: #a5260a;
 	word-wrap: break-word;
-	flex-direction: column;
 	height: 300px;
 	width: 250px;
 	margin: 10px;
+	margin-bottom: 65px;
 	border: solid black 3px;
 	border-radius: 10px;
 	text-align: center;
+}
+
+.author,
+.description,
+.page {
+	margin: 10px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.description {
+	background-color: #ae4a34;
+	border: solid 3px black;
+	border-radius: 15px;
+	height: 190px;
+	font-size: 18px;
+}
+
+#fauthor,
+#fdescription,
+#fpage {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.delete-button {
+	border: solid 3px black;
+	border-radius: 15px;
+	color: black;
 	font-size: 24px;
+	font-weight: 700;
+	padding: 0px 10px 0px 10px;
 }
 
 #footer {
